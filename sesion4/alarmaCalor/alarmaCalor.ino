@@ -4,7 +4,6 @@
 
 #include "DHT.h"
 
-#include "pitches.h"// incluir alturas para alarma
 
 #define DHTPIN 2     //pin digital
 
@@ -14,9 +13,6 @@
 
 DHT dht(DHTPIN, DHTTYPE);
 
-int sirena[] = {
-  NOTE_A4, NOTE_B4
-};
 
 
 void setup() {
